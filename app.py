@@ -11,7 +11,7 @@ st.set_page_config(page_title="CineMatch AI", page_icon="🍿", layout="wide")  
 # 2. API Setup for Posters
 def fetch_poster(title):
     # NOTE: You will need to replace this with your own free API key from TMDB
-    api_key = "2ad88702a28bc8e6756f5b1dfa137b26"
+    api_key = "YOUR_API_KEY"
     url = f"https://api.themoviedb.org/3/search/multi?api_key={api_key}&query={title}"
 
     try:
